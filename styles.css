@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Dark Creamy background color */
+    background-image: url('Nepal1.jpg'); /* Replace 'your-photo.jpg' with the actual path or URL of your photo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+     /* Center the text horizontally */
+}
+
+.header {
+    
+    padding-left: 200px;
+    padding-block: 10px;
+    text-align: right;
+    font-style: oblique;
+}
+
+
+
+.navbar {
+    display: inline-block; /* Display the navbar as inline-block */
+}
+
+.nav-link {
+    color: #fff; /* Navbar link text color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.Title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-style: oblique;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(240, 232, 232); /* Dark text color */
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:bold;
+    margin-top: 1px; /* Include units (e.g., px) for margin-top */
+    position: center;
+    padding-bottom: 700px;
+    
+    
+} 
+
+.logo {
+    max-width: 50px; /* Set the maximum width for the logo */
+    padding-top: 20px;
+    height: 50px; /* Set the height for the logo */
+    border-radius: 50%; /* Make the logo circular */
+    margin-right: 1px;
+}
+
+.floating-container {
+    background-color: rgba(48, 98, 134, 0.8);
+    padding: 10px;
+    position:absolute;
+    top: 22%;
+    left: 50%;
+    right: 1%;
+    display: flex;
+    font-size: large;
+    border-radius:10px; /* Optional: Add border-radius for rounded corners */
+    
+}
+
+.info {
+    max-width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.photo {
+    max-width: 50%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.photo img {
+    max-width: 100%;
+    height: 250px;
+    width: auto;
+    border-radius: 15px; /* Example border-radius for the photo */
+}
+
+
+
+.footer {
+    color: #fff; /* Footer text color */
+    font-style: italic;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #fff; /* Set the color to white */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+.copyright {
+    flex-grow: 1; /* Allow it to grow and take available space */
+    text-align: center;
+}
