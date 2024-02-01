@@ -43,7 +43,6 @@ body {
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
-    
     font-style: oblique;
     color: aliceblue;
     font-weight: bold;
@@ -51,31 +50,34 @@ body {
 }
 
 h1 {
-    color: rgb(240, 232, 232);
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: bold;
-    margin-top: 1px;
-    padding-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 80px;
 }
 
 .logo {
-    max-width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    max-width: 50px; /* Set the maximum width for the logo */
+    padding-top: 20px;
+    height: 50px; /* Set the height for the logo */
+    border-radius: 50%; /* Make the logo circular */
     margin-right: 1px;
 }
 
 .floating-container {
-    background-color: rgba(48, 98, 134, 0.8);
+    background-color: rgba(30, 56, 75, 0.888);
     padding: 10px;
     position:relative;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
     flex-direction: column;
     font-size: medium;
     border-radius: 10px;
     margin-top: 20px;
-    max-width: 800px;
+    max-width: 500px;
 }
 
 .info,
